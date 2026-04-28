@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "macroeventchat",
+	"version": "${version}",
+	"name": "MacroEventChat",
+	"description": "Répond automatiquement aux events chat du serveur.",
+	"authors": [
+		"Mister"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"fr.mister.autorespond.MacroEventChat"
+		],
+		"client": [
+          "fr.mister.autorespond.client.MacroEventChatClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
